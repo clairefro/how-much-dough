@@ -8,6 +8,9 @@
   margin-top: 8rem;
 }
 
+*:focus {
+  outline-color: $foam;
+}
 h1, h3 {
   text-align: center;
 }
