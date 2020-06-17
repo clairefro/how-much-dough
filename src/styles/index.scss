@@ -1,5 +1,15 @@
+@import './variables';
+@import './components';
 .App {
+  color: $salmon;
   box-sizing: border-box;
   font-family: sans-serif;
   margin: 6rem 0;
+}
+
+h1 {
+  text-align: center;
+}
+.container {
+  margin: 3rem;
 }

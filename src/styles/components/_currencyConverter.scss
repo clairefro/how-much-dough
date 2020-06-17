@@ -1,0 +1,23 @@
+.currency-converter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .input-section {
+    margin: 8px;
+  }
+  input, select {
+    height: 50px;
+    font-size: 20px;
+  }
+  input {
+    font-weight: bold;
+    text-align: right;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    margin-left: 20px;
+  }
+  select {
+    margin-left: 8px;
+  }
+}

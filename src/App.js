@@ -5,7 +5,10 @@ import CurrencyConverter from './components/currencyConverter'
 function App() {
   return (
     <div className="App">
-      <CurrencyConverter />
+      <div className="container">
+        <h1>How Much Dough?</h1>
+        <CurrencyConverter />
+      </div>
     </div>
   );
 }
