@@ -1,9 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
+import SVG from 'react-inlinesvg'
 
 import { convert } from '../utils/convert'
 
+import breadOutline from '../static/bread-outline.svg'
+
 const endpoint = 'https://openexchangerates.org/api/latest.json?app_id='
 const apiId = '5eb4c18e936f4deeb6024f3d5dbab934'
+
 
 const CurrencyConverter = ({ baseCur, targetCur }) => {
   const [rates, setRates] = useState({})
@@ -104,6 +108,7 @@ const CurrencyConverter = ({ baseCur, targetCur }) => {
 
   return (
     <div className="currency-converter">
+      <SVG className="bread-outline" src={breadOutline} />
       <div className="input-section">
         <input
           ref={field1Input}

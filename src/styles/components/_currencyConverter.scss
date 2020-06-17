@@ -1,4 +1,5 @@
 .currency-converter {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -20,4 +21,11 @@
   select {
     margin-left: 8px;
   }
+}
+
+.bread-outline {
+  position: absolute;
+  z-index: -1;
+  fill: $salmon-light;
+  top: -147px;
 }
