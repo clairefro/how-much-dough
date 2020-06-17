@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/how-much-dough/static/css/main.75df9f48.chunk.css",
+    "main.js": "/how-much-dough/static/js/main.94ffbe5a.chunk.js",
+    "main.js.map": "/how-much-dough/static/js/main.94ffbe5a.chunk.js.map",
+    "runtime-main.js": "/how-much-dough/static/js/runtime-main.de3f6347.js",
+    "runtime-main.js.map": "/how-much-dough/static/js/runtime-main.de3f6347.js.map",
+    "static/js/2.c70623b2.chunk.js": "/how-much-dough/static/js/2.c70623b2.chunk.js",
+    "static/js/2.c70623b2.chunk.js.map": "/how-much-dough/static/js/2.c70623b2.chunk.js.map",
+    "index.html": "/how-much-dough/index.html",
+    "precache-manifest.993b3403c3ac0b68ffc61e62c1ac5b47.js": "/how-much-dough/precache-manifest.993b3403c3ac0b68ffc61e62c1ac5b47.js",
+    "service-worker.js": "/how-much-dough/service-worker.js",
+    "static/css/main.75df9f48.chunk.css.map": "/how-much-dough/static/css/main.75df9f48.chunk.css.map",
+    "static/js/2.c70623b2.chunk.js.LICENSE.txt": "/how-much-dough/static/js/2.c70623b2.chunk.js.LICENSE.txt",
+    "static/media/mintbean.png": "/how-much-dough/static/media/mintbean.cf18b629.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de3f6347.js",
+    "static/js/2.c70623b2.chunk.js",
+    "static/css/main.75df9f48.chunk.css",
+    "static/js/main.94ffbe5a.chunk.js"
+  ]
+}
