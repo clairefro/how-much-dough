@@ -1,5 +1,6 @@
 {
   "name": "how-much-dough",
+  "homepage": "https://clairefro.github.io/how-much-dough/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
