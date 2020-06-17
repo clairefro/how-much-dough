@@ -24,7 +24,7 @@ const BreadBox = ({ referenceField, rates }) => {
   return (
     <div className="bread-box">
     {breads > 0 &&
-      <h3>That's {breads} loafs of bread in the USA</h3>
+      <h3>That's {breads.toFixed(2)} loafs of bread in the USA.</h3>
     }
     <div className="breads">
     {'🍞'.repeat(breads)}

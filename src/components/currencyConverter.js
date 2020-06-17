@@ -109,8 +109,8 @@ const CurrencyConverter = ({ baseCur, targetCur }) => {
 
   return (
     <div className="currency-converter">
+    <SVG className="bread-outline" src={breadOutline} />
       <div className="top">
-        <SVG className="bread-outline" src={breadOutline} />
         <div className="input-section">
           <input
             ref={field1Input}
@@ -155,9 +155,11 @@ const CurrencyConverter = ({ baseCur, targetCur }) => {
           </select>
         </div>
       </div>
-      <div className="bottom">
-        <BreadBox referenceField={field1} rates={rates.rates} />
-      </div>
+      {field1.amount > 0 && (
+        <div className="bottom">
+          <BreadBox referenceField={field1} rates={rates.rates} />
+        </div>
+      )}
     </div>
   )
 }

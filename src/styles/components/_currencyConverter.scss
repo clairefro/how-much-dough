@@ -1,8 +1,14 @@
 .currency-converter {
   position: relative;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  .top {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
   .input-section {
     margin: 8px;
   }
@@ -24,7 +30,14 @@
 }
 
 .bottom {
+  margin: 0 auto;
   display: block;
+  margin-top: 5rem;
+  max-width: 400px;
+  background-color: rgba(255,255,255,0.7);
+  padding: 2rem;
+  border-radius: 40px;
+  box-shadow: 3px 3px 5px 6px rgba(0,0,0,0.12);
 }
 .bread-outline {
   position: absolute;
