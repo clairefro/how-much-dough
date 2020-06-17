@@ -5,16 +5,29 @@
   align-items: center;
   .top {
 
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
   }
   .input-section {
+    flex-wrap: wrap;
     margin: 8px;
+    display: flex;
+    align-items: center;
   }
   input, select {
     height: 50px;
+    border-radius: 40px;
+    border: $salmon solid;
+  }
+  input {
+    font-size: 28px;
+  }
+  select {
     font-size: 20px;
+    background-color: #fff;
+    padding: 10px;
+    cursor: pointer;
   }
   input {
     font-weight: bold;
