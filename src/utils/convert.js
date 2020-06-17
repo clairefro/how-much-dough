@@ -15,5 +15,5 @@ export const convert = (baseAmount, baseCode, targetCode, rates) => {
   const result = francaAmount * targetRate
 
   // return targetAmount
-  return result;
+  return result.toFixed(2);
 }
