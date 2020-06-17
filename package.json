@@ -1,6 +1,6 @@
 {
   "name": "how-much-dough",
-  "homepage": "https://clairefro.github.io/how-much-dough/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,9 +8,11 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "gh-pages": "^3.0.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-use-localstorage": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
